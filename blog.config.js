@@ -24,10 +24,10 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '久久凯旋航测科技有限公司', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '北京久久凯旋航测科技有限公司是北京中关村高科技园区一家民营科技企业。公司主要面对航空、航天、航海、兵器、电子以及军工研究所、院校等领域开展业务。', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.triumphgroup.top/', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '久久凯旋,导航定位,INS/GPS组合导航系统,陀螺仪,光纤陀螺,机械陀螺,微机械陀螺仪,姿态方位参考系统（AHRS）, 垂直陀螺,惯性测量单元 IMU,双天线GPS北斗测向系统,寻北仪,高端GPS北斗多星多频板卡,高精度GPS北斗接收机,接收板及时间同步系统,云台,转台,GPS天线,GPS地面天线,航空天线,多星多频动态航空,航空天线,海用天线,车载天线,无线图数传电台（Mesh电台、短波电台）,GPS时间同步,PCI对时卡,CPCI时统卡,GPS对时接收机,GPS校频机,电子磁罗盘,加速度计,倾角传感器,工控机,计算机,交换机,显示器,对讲机,监控系统,电子配件,元器件,视频采集卡,光端机,串口服务器,系统集成,软件开发,技术服务', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
